@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="184" height="36" viewBox="0 0 184 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4e4f62;
+        fill-opacity: 0.7;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1023" y="362" width="185" height="37" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="1.312" dy="1.509" in="SourceAlpha"/>
+      <feGaussianBlur result="blur"/>
+      <feFlood result="flood"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #4e4f62; filter: url(#filter)">
+    <path id="btnBkg.svg" class="cls-1" d="M1026.57,365h177.74v30.731H1026.57V365Z" transform="translate(-1023.5 -362.5)" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#btnBkg.svg" style="stroke: #fff; filter: none; fill: none"/>
+</svg>

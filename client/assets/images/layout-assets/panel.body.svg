@@ -1,0 +1,11 @@
+<svg id="panel.body.svg" xmlns="http://www.w3.org/2000/svg" width="960" height="427" viewBox="0 0 960 427">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c2c2c;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="content-container" class="cls-1" d="M438,349h960V817H438V349Zm0,0h960V817H438V349Z" transform="translate(-438 -349)"/>
+</svg>

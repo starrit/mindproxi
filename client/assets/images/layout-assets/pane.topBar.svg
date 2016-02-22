@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="967" height="65" viewBox="0 0 967 65">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4e4f62;
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="435" y="336" width="967" height="65" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dy="2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="1.414"/>
+      <feFlood result="flood" flood-color="#fbcf00"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feOffset result="offset-2" dy="-2" in="SourceAlpha"/>
+      <feGaussianBlur result="blur-2" stdDeviation="2"/>
+      <feFlood result="flood-2" flood-opacity="0.35"/>
+      <feComposite result="composite-2" operator="in" in2="blur-2"/>
+      <feBlend result="blend" mode="multiply" in2="composite"/>
+      <feBlend result="blend-2" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="pane.topBar.svg" class="cls-1" d="M438,341h960v58H438V341Zm0,0h960v58H438V341Z" transform="translate(-435 -336)"/>
+</svg>

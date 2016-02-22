@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="736" height="1" viewBox="0 0 736 1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ac0000;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="hr.red.svg" class="cls-1" d="M534,296v-1h736v1H534Z" transform="translate(-534 -295)"/>
+</svg>

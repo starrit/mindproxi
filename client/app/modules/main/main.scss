@@ -1,0 +1,61 @@
+.hero-container{
+  background-color:#4f5063;
+
+
+  &:after{
+    display: flex;
+    position: absolute;
+    background-image: url('../assets/images/heroImage.001.jpg');
+
+    -webkit-filter: blur(8px);
+    -moz-filter: blur(8px);
+    -o-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+    height:400px;
+  }
+
+  .logo{
+    background-image: url('../assets/images/LOGO.png');
+    background-size: 200px;
+    background-position: center center;
+    width: 400px;
+    min-height: 400px;
+  }
+
+
+}
+
+
+
+// Truncate Text:
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+// Global COntrolls
+//Brand Button
+.has-bkg-img{
+  transition: all .3s;
+  background-size: cover !important;
+  background-repeat:no-repeat !important;
+}
+
+.bkg-img-top{
+  background-position: center top !important;
+}
+
+
+// disable things:
+*[disabled='disabled']{
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+  cursor: not-allowed !important;
+}
+
+
+
