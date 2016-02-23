@@ -1,61 +1,51 @@
+.clear{
+  display: block;
+  position: absolute;
+  top: 43%;
+  left: 10%;
+  right: 10%;
+}
+
 .hero-container{
-  background-color:#4f5063;
+  background-color: rgba(45, 46, 57, 1);
+    background-image: url('../assets/images/heroImage.png');
+    background-color: #1c1d2a;
 
 
-  &:after{
-    display: flex;
-    position: absolute;
-    background-image: url('../assets/images/heroImage.001.jpg');
+  .logo {
+    background-image: url("../assets/images/LOGO.png");
+    background-size: contain;
+    background-position: center;
+    min-width: 200px;
+    width: 100%;
+  }
+}
 
-    -webkit-filter: blur(8px);
-    -moz-filter: blur(8px);
-    -o-filter: blur(8px);
-    -ms-filter: blur(8px);
-    filter: blur(8px);
-    height:400px;
+.tab-container{
+  background-color: rgba(20, 21, 35, 0.96) !important;
+}
+
+.divider{
+  background-size: cover;
+  background-color: rgba(82, 83, 102, 0.85);
+}
+
+.redDiv{
+  width: 80%;
+  border-top: 1px solid red;
+}
+
+btn{
+  border-bottom: 4px solid white;
+  margin: 0 5px 0 5px;
+
+  span{
+    color: rgba(255, 255, 255, 0.87);
   }
 
-  .logo{
-    background-image: url('../assets/images/LOGO.png');
-    background-size: 200px;
-    background-position: center center;
-    width: 400px;
-    min-height: 400px;
+  &:hover{
+    span{color: white;}
   }
-
-
 }
-
-
-
-// Truncate Text:
-.truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-
-
-// Global COntrolls
-//Brand Button
-.has-bkg-img{
-  transition: all .3s;
-  background-size: cover !important;
-  background-repeat:no-repeat !important;
-}
-
-.bkg-img-top{
-  background-position: center top !important;
-}
-
-
-// disable things:
-*[disabled='disabled']{
-  -webkit-filter: grayscale(100%) !important;
-  filter: grayscale(100%) !important;
-  cursor: not-allowed !important;
-}
-
 
 

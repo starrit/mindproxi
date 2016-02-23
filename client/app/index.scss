@@ -46,3 +46,67 @@
   background: white;
   height: 100%;
 }
+
+*{
+  font-family: "Proxima Nova";
+
+}
+
+
+.decorateText{
+  margin: 0;
+  padding: 0;
+  text-shadow: rgba(0, 0, 0, 0.36) 2px 2px 2px;
+
+}
+
+.yellow{
+  color: #d8bb0c;
+}
+
+.white{
+  color: white;
+}
+
+.red{
+  color: red;
+}
+
+
+
+// Truncate Text:
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+// Global COntrolls
+//Brand Button\
+
+body{
+
+
+}
+
+
+.has-bkg-img{
+  transition: all .3s;
+  background-size: cover ;
+  background-repeat:no-repeat;
+}
+
+.bkg-img-top{
+  background-position: center top !important;
+}
+
+
+// disable things:
+*[disabled='disabled']{
+  -webkit-filter: grayscale(100%) !important;
+  filter: grayscale(100%) !important;
+  cursor: not-allowed !important;
+}
+
