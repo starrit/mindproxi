@@ -5,4 +5,4 @@
     function Controller($scope, $rootScope, $http){
         //
     }
-}())
+}());

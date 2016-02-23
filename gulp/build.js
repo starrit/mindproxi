@@ -32,7 +32,7 @@ gulp.task('html', ['inject', 'partials'], function ()
     var partialsInjectOptions = {
         starttag    : '<!-- inject:partials -->',
         ignorePath  : path.join(conf.paths.tmp, '/partials'),
-        addRootSlash: false
+        addRootSlash: true
     };
 
     var htmlFilter = $.filter('*.html', {restore: true});
@@ -46,13 +46,13 @@ gulp.task('html', ['inject', 'partials'], function ()
         .pipe($.rev())
         .pipe(jsFilter)
         .pipe($.sourcemaps.init())
-        .pipe($.ngAnnotate())
-        .pipe($.uglify({preserveComments: $.uglifySaveLicense})).on('error', conf.errorHandler('Uglify'))
+        //.pipe($.ngAnnotate())
+        //.pipe($.uglify({preserveComments: $.uglifySaveLicense})).on('error', conf.errorHandler('Uglify'))
         .pipe($.sourcemaps.write('maps'))
         .pipe(jsFilter.restore)
         .pipe(cssFilter)
         .pipe($.sourcemaps.init())
-        .pipe($.minifyCss({processImport: false}))
+        //.pipe($.minifyCss({processImport: false}))
         .pipe($.sourcemaps.write('maps'))
         .pipe(cssFilter.restore)
         .pipe(assets.restore())
